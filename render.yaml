@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: flask-mediapipe-app
+    runtime: python
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
+    buildCommand: ""
+    startCommand: "python app.py"
